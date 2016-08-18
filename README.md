@@ -9,6 +9,8 @@
 
         git checkout -b add-my-details
 
+    (notice the `-b` flag. It's important. Why?)
+
 4.  Edit the file `about.me`, adding your name and student ID.
 
 5.  Have a look at the differences between your working copy of the
@@ -35,7 +37,12 @@
 
 11. Push the file to your github account:
 
-         git push
+         git push -u origin add-my-details
+
+    The first time you push from a branch, you have to tell git where
+    to put it on the destination repository. `origin` is the default
+    name for a repository you clone, so this is saying "store it back
+    in the original remote repository in the `add-my-defaults` branch.
 
 12. Visit your project on GitHub. Switch to the "add-my-details" branch
     and generate a pull request. Make sure to include your name and SMU ID
