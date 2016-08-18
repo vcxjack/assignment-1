@@ -1,38 +1,43 @@
 # Assignment One
 
-1. Create a new branch to work in. Call it `add-my-details`.
+1.  Fork this repository into your own GitHub account.
+
+2.  Pull that forked version to your local machine. Check that the
+    `README.md` file looks like this.
+
+3.  Create a new branch to work in. Call it `add-my-details`.
 
         git checkout -b add-my-details
 
-2. Edit the file `about.me`, adding your name and student ID.
+4.  Edit the file `about.me`, adding your name and student ID.
 
-3. Have a look at the differences between your working copy of the
-   file and the one you started with:
+5.  Have a look at the differences between your working copy of the
+    file and the one you started with:
 
         git diff
 
-4. Commit the changes to your local repository
+6.  Commit the changes to your local repository
 
         git add about.me
         git commit -m 'added my details'
 
-5. Go back to the master branch.
+7.  Go back to the master branch.
 
         git checkout master
 
-6. Have a look at `about.me`.
+8.  Have a look at `about.me`. Your changes are gone!
 
-7. Go back to the branch you did the work in
+9.  Go back to the branch you did the work in
 
         git checkout add-my-details
 
-8. Have a look at the file now.
+10. Have a look at the file now. You should see the changes you made.
 
-9. Push the file to your github account:
+11. Push the file to your github account:
 
-        git push
+         git push
 
-10. Visit your project on GitHub. Switch to the "add-my-details" branch
+12. Visit your project on GitHub. Switch to the "add-my-details" branch
     and generate a pull request. Make sure to include your name and SMU ID
     in the notes.
 
