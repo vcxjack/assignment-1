@@ -11,7 +11,7 @@
 
     (notice the `-b` flag. It's important. Why?)
 
-4.  Edit the file `about.me`, adding your name and student ID.
+4.  Edit the file `about.me`, replacing my name and ID with yours.
 
 5.  Have a look at the differences between your working copy of the
     file and the one you started with:
