@@ -2,8 +2,8 @@
 
 1.  Fork this repository into your own GitHub account.
 
-2.  Pull that forked version to your local machine. Check that the
-    `README.md` file looks like this.
+2.  Clone that forked version to your local machine. Check that the
+    `README.md` file looks like this file.
 
 3.  Create a new branch to work in. Call it `add-my-details`.
 
